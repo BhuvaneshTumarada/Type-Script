@@ -1,0 +1,10 @@
+interface Employee {
+    readonly id: number;
+    name: string;
+}
+const employee: Employee = {
+    id: 1,
+    name: "David Warner"
+};
+employee.name = "John";
+employee.id = 2;
